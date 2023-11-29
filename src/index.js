@@ -1,13 +1,11 @@
-const category = document.querySelector('#category'),
-menu = document.querySelector('#menu')
-
-category.addEventListener('click', () => {
+const toggleMenuWrapper = () => {
+  const menu = document.querySelector('#menu')
   if (menu.classList.contains('hidden')) {
     menu.classList.remove('hidden')
   } else {
     menu.classList.add('hidden')
   }
-})
+}
 
 const updateQuantity = (event) => {
   const operation = event.target.getAttribute('operation'),
