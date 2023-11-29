@@ -1,0 +1,11 @@
+UI Interfaces
+
+Home Page
+Product Display Page
+Buy Now Process Pages
+Search Result
+Particular Category Page
+Cart 
+Notification
+User Dashboard
+Admin Dashboard
